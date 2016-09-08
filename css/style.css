@@ -3,16 +3,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: 24px/36px 'Inconsolata', 'Courier', monospace;
   height: 100vh;
+  margin: 0; /* Reset */
+  padding: 0; /* Reset */
 }
 
 .clock {
   background-color: #000;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   color: #101010;
-  letter-spacing: 5px;
-  padding: 50px 55px 50px 60px;
+  font: 4vh/6vh 'Inconsolata', 'Courier', monospace;
+  letter-spacing: 1vh;
+  /* Right-side padding adjusted for letter spacing at the end of the line */
+  padding: 9vh 10vh 9vh 11vh;
 }
 
 .always-on,
